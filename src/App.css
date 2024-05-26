@@ -1,38 +1,80 @@
-.App {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color:gold;
+}
+.product-image img{
+  width: 300px;
+  height: 390px;
+}
+/* .product-image {
+  border: 2px solid white;
+} */
+
+.product-container {
+  display: grid;
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.product-info {
+  width: 900px;
+  height: 600px;
+  background-color:black;
+  color:yellow;
+  padding: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-info button{
+  background-color: yellow;
+  border: 2px solid white;
+  padding: 5px 20px 5px 20px;
+  border-radius:30px;
+  font-size: large;
+  font-weight: bold;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Footer h1{
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Footer p{
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Media Queries */
+@media (max-width: 992px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 600px) {
+  .grid-container {
+      grid-template-columns: 1fr;
   }
 }
+.headercontainer{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container img{
+  width: 150px;
+  height: 70px;
+}
+@media (max-width:1882) {
+  .headercontainer{
+    grid-template-columns:1fr;
+  }
+  
+}
+
+
+
+
+
