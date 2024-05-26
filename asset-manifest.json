@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shopping--cart/static/css/main.cd4c11b6.css",
+    "main.js": "/shopping--cart/static/js/main.09fdd7d0.js",
+    "static/js/453.59eb9ae1.chunk.js": "/shopping--cart/static/js/453.59eb9ae1.chunk.js",
+    "static/media/pngtree-shopping-logo-design-for-online-store-website-png-image_8647300.png": "/shopping--cart/static/media/pngtree-shopping-logo-design-for-online-store-website-png-image_8647300.b5771c5293d6e78c30e6.png",
+    "index.html": "/shopping--cart/index.html",
+    "main.cd4c11b6.css.map": "/shopping--cart/static/css/main.cd4c11b6.css.map",
+    "main.09fdd7d0.js.map": "/shopping--cart/static/js/main.09fdd7d0.js.map",
+    "453.59eb9ae1.chunk.js.map": "/shopping--cart/static/js/453.59eb9ae1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd4c11b6.css",
+    "static/js/main.09fdd7d0.js"
+  ]
+}
